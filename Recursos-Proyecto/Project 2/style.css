@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.backeground_image1 {
+    background-image: url("background_image1");
+    min-height: 100%;
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.textbg{
+    background-color: #313531;
+    color: #fff;
+    padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
